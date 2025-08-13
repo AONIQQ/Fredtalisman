@@ -39,7 +39,7 @@ export default function LearnMore() {
             </video>
           </div>
           
-          {/* Call-to-Action Buttons */}
+          {/* Call-to-Action Buttons  */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-8 px-4">
             {/* Book a Call Button */}
             <Link
