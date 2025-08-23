@@ -34,6 +34,7 @@ export function Navigation() {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
+    { href: "/program", label: "Program" },
     { href: "/success-stories", label: "Success Stories" },
     { href: "/call", label: "Schedule a free consultation" },
   ]
