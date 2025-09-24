@@ -43,6 +43,27 @@ const ContactForm = () => (
 export default function Home2() {
   return (
     <div className="min-h-screen bg-navy text-white">
+      {/* Video Section */}
+      <section className="bg-navy-light py-8">
+        <div>
+          {/* Video Embed Container */}
+          <div className="flex justify-center mb-4">
+            <video 
+              controls
+              className="h-auto"
+              style={{ 
+                maxHeight: '80vh',
+                minHeight: '600px',
+                width: 'auto'
+              }}
+            >
+              <source src="/FredTalisman_VSL_final.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* Above Fold Section - Mobile Focused */}
       <section className="bg-navy-light py-2 px-2 text-center flex flex-col items-center space-y-1.5 sm:space-y-2 md:space-y-2.5">
 
