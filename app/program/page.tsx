@@ -197,164 +197,103 @@ export default function Program() {
       <header className="py-12 md:py-20 border-b border-gold/30 bg-navy-light">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4 animate-fade-in text-gold">
-            Save Your Relationship Program
+            Fred Talisman's Relationship Revitalization System
           </h1>
           <p className="text-xl md:text-2xl mb-6 animate-fade-in delay-100 text-white/90">
-            The Comprehensive System That Has Saved Thousands of Relationships
-          </p>
-          <p className="text-lg text-white/80 max-w-3xl mx-auto animate-fade-in delay-200">
-            Over 50 years of proven strategies and techniques to help you rescue and strengthen your relationship, 
-            even when it seems impossible.
+            The Comprehensive Set of Skills That Has Helped Thousands of my Clients to Have a Successful and Thriving Relationship.
           </p>
         </div>
       </header>
 
       <main className="container mx-auto px-4 py-12 space-y-16">
         
-        {/* Program Overview */}
+        {/* Introduction Section */}
         <section className="bg-navy-light p-8 rounded-lg shadow-lg border border-white/10">
-          <h2 className="text-3xl font-serif font-bold mb-6 text-gold flex items-center">
-            <span className="w-6 h-0.5 bg-gold mr-2 hidden md:block"></span>
-            What You Get in This Program
-          </h2>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="space-y-6">
-              <div className="bg-navy/50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3 text-gold">Comprehensive Training Materials</h3>
-                <ul className="space-y-2 text-white/90">
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Step-by-step relationship rescue strategies
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Communication techniques that actually work
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    How to rebuild trust after betrayal
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Scripts for difficult conversations
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="bg-navy/50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3 text-gold">Personal Support</h3>
-                <ul className="space-y-2 text-white/90">
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Direct access to Fred Talisman, MFT
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    One-on-one coaching sessions
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Email and phone support
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div className="text-lg space-y-6 text-white/90 leading-relaxed">
+            <p>
+              I came to a point of realization that what I and almost all therapists are taught in graduate school either make things worse for a struggling relationship or contribute to ending it.
+            </p>
             
-            <div className="space-y-6">
-              <div className="bg-navy/50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3 text-gold">Proven Methodologies</h3>
-                <ul className="space-y-2 text-white/90">
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    The "One Person Can Save the Relationship" approach
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Techniques that work even when your partner won't participate
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Emergency interventions for crisis situations
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Long-term relationship strengthening strategies
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="bg-navy/50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-3 text-gold">Lifetime Access</h3>
-                <ul className="space-y-2 text-white/90">
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Access to all materials forever
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Updates and new content included
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold mr-2">•</span>
-                    Community support forum access
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <p>
+              Since then, I've come up with my Relationship Revitalization System, a set of skills and concepts that I teach to my clients to give them the best possibility of getting their relationship back on track and to make it fully work for both they and their partner. This is the system that I described to you in detail on our call.
+            </p>
           </div>
         </section>
 
         <SectionDivider />
 
-        {/* Why This Program Works */}
-        <section className="space-y-6">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-gold flex items-center">
+        {/* System Overview */}
+        <section className="bg-navy-light p-8 rounded-lg shadow-lg border border-white/10">
+          <h2 className="text-3xl font-serif font-bold mb-6 text-gold flex items-center">
             <span className="w-6 h-0.5 bg-gold mr-2 hidden md:block"></span>
-            Why This Program Works When Others Fail
+            Here's a summary of that system:
           </h2>
           
-          <div className="bg-navy-light p-8 rounded-lg shadow-lg border border-white/10">
-            <div className="text-lg space-y-4 text-white/90 leading-relaxed">
-              <p>
-                Most relationship programs and traditional couples therapy fail because they assume both partners 
-                are willing participants. Fred's approach is revolutionary because it recognizes that 
-                <span className="font-bold text-gold"> it only takes one person to start saving a relationship</span>.
-              </p>
-              
-              <p>
-                With over 50 years of experience saving relationships that seemed hopeless, Fred has developed 
-                unique strategies that work even when:
-              </p>
-              
-              <ul className="space-y-3 pl-6">
-                <li className="flex items-start">
-                  <span className="text-gold mr-3 text-xl">✓</span>
-                  Your partner wants to break up
-                </li>
-                <li className="flex items-start">
-                  <span className="text-gold mr-3 text-xl">✓</span>
-                  Your partner refuses to get help
-                </li>
-                <li className="flex items-start">
-                  <span className="text-gold mr-3 text-xl">✓</span>
-                  Trust has been broken by infidelity
-                </li>
-                <li className="flex items-start">
-                  <span className="text-gold mr-3 text-xl">✓</span>
-                  You've tried other counselors without success
-                </li>
-                <li className="flex items-start">
-                  <span className="text-gold mr-3 text-xl">✓</span>
-                  The relationship seems beyond repair
-                </li>
-              </ul>
-              
-              <p>
-                This isn't just theory—it's a proven system that has helped thousands of people save their 
-                relationships and keep their families together.
-              </p>
-            </div>
+          <div className="space-y-4 text-white/90 leading-relaxed">
+            <ul className="space-y-4">
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to stay connected or to reconnect to the love that brought you together in the first place.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to replace your negative case in your mind against your partner with a positive one.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to communicate in a way that your partner feels consistently heard and understood.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to become a master of timing so that you only communicate when both of you are in positive emotion about each other.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to release negative emotion quickly in a way that creates no consequences to your relationship.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to make your partner feel consistently loved, respected, appreciated and emotionally supported.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                Emotional reconnection communication skills that often also lead to rebuilding your physical connection.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to create agreements that you both feel good about, to both get each of your needs met and in a way that eliminates resentment.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to create a shared vision for the future together in your relationship.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                If you have children or step children together, how to create a shared vision/philosophy of parenting.
+              </li>
+              <li className="flex items-start">
+                <span className="text-gold mr-3 text-xl">✓</span>
+                How to have a clear consistent unconditional commitment to yourself of how you speak to and treat your partner and each of your kids.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <SectionDivider />
+
+        {/* What You Get Section */}
+        <section className="bg-navy-light p-8 rounded-lg shadow-lg border border-white/10">
+          <h2 className="text-3xl font-serif font-bold mb-6 text-gold flex items-center">
+            <span className="w-6 h-0.5 bg-gold mr-2 hidden md:block"></span>
+            What you get:
+          </h2>
+          
+          <div className="text-lg space-y-6 text-white/90 leading-relaxed">
+            <p>I charge $475 per 50 minute session</p>
+            
+            <p>By pre-paying for a package of 10 sessions you get an additional 2 sessions for free, a savings of $950</p>
+            
+            <p className="text-xl font-semibold text-gold">Cost of the package: $4750</p>
           </div>
         </section>
 
@@ -364,24 +303,20 @@ export default function Program() {
         <section className="bg-navy-light p-8 rounded-lg shadow-lg border border-white/10">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 text-gold">
-              Investment in Your Relationship
+              Get the Package Here
             </h2>
-            <p className="text-xl text-white/90 mb-6">
-              Complete "Save Your Relationship" Program
-            </p>
             
             {/* Price Display */}
             <div className="bg-gold/10 p-6 rounded-lg border border-gold/20 mb-8 max-w-md mx-auto">
               <div className="text-4xl md:text-5xl font-bold text-gold mb-2">
                 $4,750
               </div>
-              <p className="text-white/80">One-time investment</p>
+              <p className="text-white/80">12 sessions (10 + 2 free)</p>
               <div id='product-component-1755991281435' className="shopify-buy-frame mx-auto"></div>
             </div>
             
             <p className="text-lg text-white/90 mb-6 max-w-2xl mx-auto">
-              This comprehensive program includes everything you need to save your relationship, 
-              plus personal support from Fred Talisman himself.
+              Pre-pay for 10 sessions and get 2 additional sessions free - a savings of $950.
             </p>
           </div>
 
