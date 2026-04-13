@@ -15,7 +15,7 @@ export default function BookPage() {
           height: '700px', 
           backgroundColor: '#1a2f5a'
         }}
-        data-url="https://calendly.com/saveyourrelationship/15-30-minute-discovery-call-with-fred?background_color=1a2f5a&text_color=ffffff&primary_color=c8a05e"
+        data-url="https://calendly.com/saveyourrelationship/45-60minute-discovery-call-with-fred?background_color=1a2f5a&text_color=ffffff&primary_color=c8a05e"
       >
         <p className="text-white/70 pt-10">Loading scheduling options...</p> 
       </div>
